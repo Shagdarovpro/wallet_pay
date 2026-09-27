@@ -28,17 +28,6 @@ Dependency Injection: get_it
 
 Backend as a Service: Firebase (Auth, Cloud Firestore)
 
-Folder Structure
-
-lib/
-├── core/               # Routing, DI, Theme, Network client, Constants
-├── features/           # Isolated feature modules
-│   ├── auth/           # Authentication UI & Logic
-│   ├── dashboard/      # Main screen and balance display
-│   └── transfers/      # P2P and utility payment logic
-└── main.dart           # App entry point
-
-
 🚀 Getting Started
 
 Follow these steps to run the project locally.
@@ -66,7 +55,6 @@ Configure Firebase
 Run the FlutterFire CLI to connect your Firebase project:
 
 flutterfire configure
-
 
 Run the App
 
